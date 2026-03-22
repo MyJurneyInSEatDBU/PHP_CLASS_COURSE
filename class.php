@@ -50,4 +50,23 @@ class Student{
 }
 $student1= new Student("Getabalew kemaw","Software Engineering");
 $student1->showStudent();
+echo "getabalew";
+
+
+
+
+class Calculator {
+    // Method with default parameters
+    public function add($a=0, $b , $c = 0) {
+        return $a + $b + $c;    }
+}
+$calc = new Calculator();
+// Calling the same method with different number of arguments
+echo $calc->add(5) . "<br>";    // Output: 5  (adds only one number)
+echo $calc->add(5, 10) . "<br>";    // Output: 15     (adds two numbers)
+echo $calc->add(5, 10, 15) . "<br>";// Output: 30     (adds three numbers)
+
+
 ?>
+
+

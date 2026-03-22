@@ -4,7 +4,7 @@ function writeMessage() {
 } 
 writeMessage(); 
 
-function isPrime($n) {
+function isPr23ime($n) {
     if ($n <= 1) {
         echo "$n is Not prime";
         return;
@@ -25,5 +25,5 @@ function isPrime($n) {
     }
 }
 
-isPrime(3); // Correctly outputs "9 is Not prime"
+isPr23ime(3); // Correctly outputs "9 is Not prime"
 ?>
